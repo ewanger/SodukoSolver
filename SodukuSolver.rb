@@ -137,6 +137,7 @@ for region_y in 0..2
      puts
    end
    regionset = Array.new
+
   end
 end
 

@@ -3,7 +3,6 @@
 #
 #
 
-
 #
 #  Initialize Data Structures
 #
@@ -36,6 +35,7 @@ board.each_with_index do |row, y|
   print board[y].inspect
   puts
 end
+
 
 #
 # Solve Puzzle
@@ -129,5 +129,3 @@ couldbe.each_with_index do |row, y|
   end
   puts
 end
-
-

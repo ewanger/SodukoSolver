@@ -2,6 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b56191f-d6e1-4cfc-8a7c-0a08583a788f" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/created.rid" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/doc/doc/fonts_css_html.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/doc/doc/index_html_html.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/doc/doc/js/darkfish_js_html.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/doc/doc/js/jquery_js_html.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/doc/doc/js/navigation_js_html.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/doc/doc/js/search_index_js_html.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/doc/doc/js/search_js_html.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/doc/doc/js/searcher_js_html.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/doc/doc/rdoc_css_html.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/doc/doc/table_of_contents_html_html.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/doc/fonts_css.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/doc/index_html.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/doc/js/darkfish_js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/doc/js/jquery_js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/doc/js/navigation_js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/doc/js/search_index_js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/doc/js/search_js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/doc/js/searcher_js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/doc/rdoc_css.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/doc/table_of_contents_html.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/fonts.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/fonts/Lato-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/fonts/Lato-LightItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/fonts/Lato-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/fonts/Lato-RegularItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/fonts/SourceCodePro-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/fonts/SourceCodePro-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/images/add.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/images/arrow_up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/images/brick.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/images/brick_link.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/images/bug.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/images/bullet_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/images/bullet_toggle_minus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/images/bullet_toggle_plus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/images/date.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/images/delete.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/images/find.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/images/loadingAnimation.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/images/macFFBgHack.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/images/package.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/images/page_green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/images/page_white_text.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/images/page_white_width.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/images/plugin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/images/ruby.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/images/tag_blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/images/tag_green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/images/transparent.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/images/wrench.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/images/wrench_orange.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/images/zoom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/js/darkfish.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/js/navigation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/js/search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/js/search_index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/js/searcher.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/rdoc.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/doc/table_of_contents.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SodukuSolver.rb" afterPath="$PROJECT_DIR$/SodukuSolver.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -15,7 +77,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/SodukoSolver@SodukuSolver.coverage" NAME="SodukuSolver Coverage Results" MODIFIED="1396839769059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SodukoSolver" />
+    <SUITE FILE_PATH="coverage/SodukoSolver@SodukuSolver.coverage" NAME="SodukuSolver Coverage Results" MODIFIED="1396840703352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="SodukoSolver" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -32,8 +94,8 @@
       <file leaf-file-name="SodukuSolver.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SodukuSolver.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.5352113" vertical-offset="555" max-vertical-offset="2085">
-              <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+            <state vertical-scroll-proportion="1.5022625" vertical-offset="1301" max-vertical-offset="2055">
+              <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -235,7 +297,11 @@
       <created>1396839500663</created>
       <updated>1396839500663</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="cleaned up print statements">
+      <created>1396839877007</created>
+      <updated>1396839877007</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="2">
@@ -260,26 +326,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1307" height="874" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992327" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286445" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992327" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.286166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39795917" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3286445" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992327" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992327" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.286166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39897698" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286445" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
@@ -300,7 +366,8 @@
     </option>
     <MESSAGE value="Creates a populated couldbe array" />
     <MESSAGE value="trivial change to test github" />
-    <option name="LAST_COMMIT_MESSAGE" value="trivial change to test github" />
+    <MESSAGE value="cleaned up print statements" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleaned up print statements" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -340,17 +407,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2010">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SodukuSolver.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.5352113" vertical-offset="555" max-vertical-offset="2085">
-          <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+        <state vertical-scroll-proportion="1.5022625" vertical-offset="1301" max-vertical-offset="2055">
+          <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
           <folding />
         </state>
       </provider>

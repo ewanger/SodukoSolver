@@ -16,11 +16,7 @@ couldbe.each_with_index do |row, y|
   row.each_index do |x|
   couldbe[y][x] = [1,2,3,4,5,6,7,8,9]
   end
-#  print board[y]
 end
-
-#puts board.flatten.count
-#puts couldbe.flatten.count
 
 #
 #  Enter Puzzle
@@ -61,50 +57,36 @@ end
 
 # first prune the constants
 couldbe.each_with_index do |row, y|
-  #printf "row: %d: ", y
   row.each_index do |x|
     if board[y][x] != 0
       couldbe[y][x] = [board[y][x]]
     end
-    #print couldbe[y][x]
   end
-  #puts
 end
 
 # then prune the rows
 board.each_with_index do |row, y|
   couldbe[y].each_with_index do |cell, x|
-    #print "row:",y," col:",x," "
     if cell.count > 1
      result = cell - row
     else
       result = cell
     end
     couldbe[y][x]=result
-    #print couldbe[y][x]
-    #puts
   end
-  #puts
 end
 
 
 # then prune the columns
 board.transpose.each_with_index do |row, y|
-  #print "row:", y , " " , row
   couldbe.transpose[y].each_with_index do |cell, x|
-    #print "row:",x," col:",y,":"
-
     if cell.count > 1
       result = cell - row
     else
       result = cell
     end
-    #print cell, " - ", row, " = " , result
     couldbe[y][x]=result
-    #print couldbe[y][x]
-    #puts
   end
-  #puts
 end
 
 puts
@@ -116,11 +98,8 @@ for region_y in 0..2
    for y in 0..2
      for x in 0..2
    regionset.push(board[region_y*3+y][region_x*3+x])
-  # print region_y," ", region_x, " ", board[region_y*3][region_x*3]
      end
    end
-   print regionset
-   puts
    for y in 0..2
      for x in 0..2
        cell = couldbe[region_y*3+y][region_x*3+x]
@@ -129,12 +108,8 @@ for region_y in 0..2
        else
          result = cell
        end
-       print cell, " - ", regionset, " = " , result
        couldbe[region_y*3+y][region_x*3+x] = result
-       #print couldbe[y][x]
-       puts
      end
-     puts
    end
    regionset = Array.new
 
@@ -145,14 +120,12 @@ end
 # Output Solution
 #
 
-
 puts
 puts
 couldbe.each_with_index do |row, y|
   printf "row: %d: ", y
-  puts
   row.each_index do |x|
-    printf "%s\n" ,couldbe[y][x]
+    printf "%s " ,couldbe[y][x]
   end
   puts
 end

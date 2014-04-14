@@ -45,9 +45,15 @@
 
 # then prune the rows
     @solution.each_with_index do |row, y|
+      temp = row
+      temp.each_with_index do |el, index |
+        if el.count > 1
+          temp[index] = [0]
+        end
+        end
       row.each_with_index do |cell,x|
         if row[x].count > 1
-          result = cell - row
+          result = cell - temp
         else
           result = cell
         end
@@ -109,7 +115,7 @@
 end
 
 
-  board = Array.new
+board = Array.new
 
 board[0] = [[7], [0], [9], [3], [0], [0], [0], [0], [0]]
 board[1] = [[4], [0], [3], [5], [2], [8], [0], [0], [0]]
@@ -121,7 +127,7 @@ board[6] = [[0], [8], [2], [0], [0], [0], [0], [9], [0]]
 board[7] = [[0], [0], [0], [9], [3], [7], [8], [0], [2]]
 board[8] = [[0], [0], [0], [0], [0], [2], [5], [0], [3]]
 
-virgin_board = board
+virgin_board = board.clone
 
 print "\n\nBoard to solve:\n\n"
 

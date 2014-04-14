@@ -1,5 +1,3 @@
-#!/usr/bin/ruby
-
 
   def print_solution(a_solution)
     a_solution.each_with_index do |row, y|
@@ -21,62 +19,38 @@
     #out goes a pruned array for recursive reinjection or
     #a nil
 
-    @solution = solution_array
-
-# if it's a constant, prune all @solution's but that constant
-# if its empty (a zero), prune @solution's by row, prune by column, prune by region
-
-=begin
-# first prune the constants
-    @solution.each_with_index do |row, y|
-      row.each_index do |x|
-        if @solution[y][x].count > 1
-
-
-          @solution[y][x] = @solution[y][x]
-
-
-
-        end
-      end
-    end
-=end
-
+    @solution = Marshal.load( Marshal.dump( solution_array ))
+    #@original = Marshal.load( Marshal.dump( solution_array ))
 
 # then prune the rows
     @solution.each_with_index do |row, y|
-      temp = row
-      temp.each_with_index do |el, index |
-        if el.count > 1
-          temp[index] = [0]
+      row.each_index do |x|
+        @result = row[x]
+        if row[x] == [0]
+           @result = [1,2,3,4,5,6,7,8,9] - $board[y].flatten
         end
-        end
-      row.each_with_index do |cell,x|
         if row[x].count > 1
-          result = cell - temp
-        else
-          result = cell
+          @result = row[x] -  $board[y].flatten
         end
-        if result == nil
+        if @result == nil
           return nil
         end
-        @solution[y][x]=result
+        @solution[y][x]= @result
       end
     end
 
 
 # then prune the columns
     @solution.transpose.each_with_index do |row, y|
-      @solution[y].each_with_index do |cell, x|
-        if cell.count > 1
-          result = cell - row
-        else
-          result = cell
+      row.each_index do |x|
+        @result = row[x]
+        if row[x].count > 1
+          @result = row[x] -  $board[y].flatten
         end
-        if result == nil
+        if @result == nil
           return nil
         end
-        @solution[y][x]=result
+        @solution[y][x]=@result
       end
     end
 
@@ -95,82 +69,76 @@
           (0..2).each { |x|
             cell = @solution[region_y*3+y][region_x*3+x]
             if cell.count > 1
-              result = cell - regionset
+              @result = cell - regionset
             else
-              result = cell
+              @result = cell
             end
-            if result == nil
+            if @result == nil
               return nil
             end
-            @solution[region_y*3+y][region_x*3+x] = result
+            @solution[region_y*3+y][region_x*3+x] = @result
           }
         }
         regionset = Array.new
       }
     }
 
-    @solution
-
-
+    return @solution
 end
 
 
-board = Array.new
-
-board[0] = [[7], [0], [9], [3], [0], [0], [0], [0], [0]]
-board[1] = [[4], [0], [3], [5], [2], [8], [0], [0], [0]]
-board[2] = [[0], [2], [0], [0], [0], [0], [3], [1], [0]]
-board[3] = [[1], [0], [5], [6], [7], [9], [0], [0], [0]]
-board[4] = [[0], [9], [0], [2], [0], [4], [0], [3], [0]]
-board[5] = [[0], [0], [0], [8], [1], [3], [7], [0], [9]]
-board[6] = [[0], [8], [2], [0], [0], [0], [0], [9], [0]]
-board[7] = [[0], [0], [0], [9], [3], [7], [8], [0], [2]]
-board[8] = [[0], [0], [0], [0], [0], [2], [5], [0], [3]]
-
-virgin_board = board.clone
-
-print "\n\nBoard to solve:\n\n"
-
-print print_solution(board)
-
-#create a testable array solution array
-#
-board.each do |row|
-  row.each_index do |index|
-    if row[index] == [0]
-      row[index] = [1,2,3,4,5,6,7,8,9]
+  def pick_one(partial)
+    breakout = false
+    partial.each_with_index  do |row, y|
+      row.each_index do |index|
+        if row[index].count > 1
+          $board[y][index] = [row[index][0]]
+          partial[y][index] = [row[index][0]]
+          breakout = true
+          break
+        end
+        if breakout == true
+          break
+        end
+      end
+      if breakout == true
+        break
+      end
     end
   end
-end
 
-partial = board
+
+$board = Array.new
+virgin_board = Array.new
+partial = Array.new
+
+$board[0] = [[7], [0], [9], [3], [0], [0], [0], [0], [0]]
+$board[1] = [[4], [0], [3], [5], [2], [8], [0], [0], [0]]
+$board[2] = [[0], [2], [0], [0], [0], [0], [3], [1], [0]]
+$board[3] = [[1], [0], [5], [6], [7], [9], [0], [0], [0]]
+$board[4] = [[0], [9], [0], [2], [0], [4], [0], [3], [0]]
+$board[5] = [[0], [0], [0], [8], [1], [3], [7], [0], [9]]
+$board[6] = [[0], [8], [2], [0], [0], [0], [0], [9], [0]]
+$board[7] = [[0], [0], [0], [9], [3], [7], [8], [0], [2]]
+$board[8] = [[0], [0], [0], [0], [0], [2], [5], [0], [3]]
+
+
+virgin_board = Marshal.load( Marshal.dump( $board ) )
+print "\n\n$board to solve:\n\n"
+print print_solution($board)
+
+
+partial = Marshal.load( Marshal.dump( (solve($board))) )
 
 while partial.flatten.count>81
-  partial = solve(board)
+  pick_one(partial)
+  partial =  solve(partial)
 
   print "\n\npartial:\n\n"
   print_solution(partial)
   puts
 
-if partial == nil
-  break
-  elseif
-  breakout = false
-   partial.each do |row|
-     row.each_index do |index|
-       if row[index].count > 1
-         row[index] = row[index][0]
-         breakout = true
-         break
-       end
-       if breakout == true
-         break
-        end
-      end
-end
-end
-
 end
 
 print "\n\n We have a final Solution:\n\n"
-print print_solution(solution)
+print print_solution(partial)
